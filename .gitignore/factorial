@@ -1,0 +1,18 @@
+package factorial;
+
+public class Factorial {
+
+    public double metodoFactorial (int num) {
+    
+        double acomulador = 1;
+        if (num ==0 || num ==1)
+            return 1;
+        else {
+            for (int i = 2; i<= num; i ++){
+                acomulador = acomulador*i;
+            }
+            return acomulador;
+        }
+    }
+    
+}
