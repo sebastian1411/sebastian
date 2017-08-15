@@ -1,0 +1,6 @@
+# sebastian
+public class ConGradRad {
+     public double metodoGradRad (int grados){
+         return ((Math.PI * grados)/180);
+     }
+}
