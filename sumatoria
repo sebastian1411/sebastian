@@ -1,0 +1,19 @@
+# sebastian
+public class sumatoria {
+
+
+    public double metodoPrueba(int numTerm) {
+
+        signo objSidno = new signo();
+
+        souble termSum = 0;
+        factorial objFact = new Factorial ();
+
+        for ( int i =0; i <= numTerm; i++){
+            terSum = objSigno.metodoSigno(i)/objFact.metodoFactorial(i);
+            sumTer = SumTer + TermSum; 
+                
+        }
+             return sumTer;
+    }
+}
